@@ -1,0 +1,23 @@
+name: "Name goes here"
+output_dir: '.'
+output:
+  html_document:
+    theme: yeti
+    highlight: pygments
+    lib_dir: site_libs
+navbar:
+    title: "Title goes here"
+    left:
+      - text: "Home"
+        icon: fa-home
+        href: index.html
+      - text: "1st dropdown"
+        menu:
+        - text: "Link 1"
+          href: 01.html
+        - text: "Link 2"
+          href: 02.html
+        - text: "Link 3"
+          href: 03.html
+      - text: "2nd dropdown"
+      - text: "3nd dropdown"

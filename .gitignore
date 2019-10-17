@@ -1,0 +1,7 @@
+*site_libs/*
+*.html
+*.pdf
+*.docx
+*_files
+*_cache
+*.png
